@@ -16,5 +16,5 @@ public interface ApiService {
      */
     @GET("ads/cptj")
     Observable<News> getNoParams();
-//注释要写好
+//注释要写
 }
