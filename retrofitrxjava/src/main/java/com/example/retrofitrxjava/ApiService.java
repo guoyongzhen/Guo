@@ -1,4 +1,4 @@
-package com.example.retrofitrxjava;
+﻿package com.example.retrofitrxjava;
 
 
 import com.example.retrofitrxjava.bean.News;
@@ -16,4 +16,5 @@ public interface ApiService {
      */
     @GET("ads/cptj")
     Observable<News> getNoParams();
+//注释要写好
 }
